@@ -85,7 +85,7 @@ def check_win(secret_word, old_letters_guessed):
         return False
 
 
-# not my solution cuz i'm an idiot
+
 def show_hidden_word(secret_word, old_letters_guessed):
     """Displays guessed letters in the secret word, and '_' for letters that were
     not guessed yet"""
