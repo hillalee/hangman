@@ -1,4 +1,6 @@
-# MAIN PROJECT
+# MAIN PROJECT, first project!
+    from functions import (opening, choose_word, check_win, show_hidden_word, check_valid_input, try_update_letter_guessed)
+
 def main():
     old_letters_guessed = []
     num_of_tries = 1
@@ -44,7 +46,6 @@ def main():
     |      / \
     |'''}
 
-    from functions import (opening, choose_word, check_win, show_hidden_word, check_valid_input, try_update_letter_guessed)
     print(opening)
     # ask user for file path and an index
     file_path = input("insert file path: ")
